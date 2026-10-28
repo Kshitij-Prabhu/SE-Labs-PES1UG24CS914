@@ -1,0 +1,20 @@
+fare_calculator_original.py:1:1: F401 'os' imported but unused
+fare_calculator_original.py:14:1: E731 do not assign a lambda expression, use a def
+fare_calculator_original.py:16:1: E302 expected 2 blank lines, found 1
+fare_calculator_original.py:23:1: E302 expected 2 blank lines, found 1
+fare_calculator_original.py:27:1: E302 expected 2 blank lines, found 1
+fare_calculator_original.py:35:1: E302 expected 2 blank lines, found 1
+fare_calculator_original.py:43:1: E302 expected 2 blank lines, found 1
+fare_calculator_original.py:46:1: E302 expected 2 blank lines, found 1
+fare_calculator_original.py:52:1: E302 expected 2 blank lines, found 1
+fare_calculator_original.py:56:1: E302 expected 2 blank lines, found 1
+fare_calculator_original.py:59:1: E302 expected 2 blank lines, found 1
+fare_calculator_original.py:64:1: E302 expected 2 blank lines, found 1
+fare_calculator_original.py:73:1: E302 expected 2 blank lines, found 1
+fare_calculator_original.py:78:1: E302 expected 2 blank lines, found 1
+fare_calculator_original.py:85:1: E302 expected 2 blank lines, found 1
+fare_calculator_original.py:89:80: E501 line too long (100 > 79 characters)
+fare_calculator_original.py:90:80: E501 line too long (86 > 79 characters)
+fare_calculator_original.py:96:80: E501 line too long (81 > 79 characters)
+fare_calculator_original.py:98:80: E501 line too long (90 > 79 characters)
+fare_calculator_original.py:100:1: E305 expected 2 blank lines after class or function definition, found 1
