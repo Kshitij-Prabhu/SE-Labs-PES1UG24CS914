@@ -25,3 +25,11 @@
 - Bandit issues: 5 (1 High, 3 Medium, 1 Low) to 0
 - Flake8 violations: 20 to 0
 - Fixed: XXE vulnerability, insecure MD5 hash, SSH host-key bypass, shell injection, mutable default argument, unused import, camelCase naming, missing docstrings, PEP8 formatting
+
+## Lab 6 — Code Coverage and Branch Coverage
+- Assigned repo: https://github.com/SETAPESU26/L6_L7_64_bowling_alley
+- Module under test: `bowling_alley.py` (lane_cost, frame_score, lane_assignment)
+- Tool: Python `coverage` + `pytest`
+- **Line (Code) Coverage: 100%** (24 test cases — `CodeCoverageTest_PES1UG24CS914_bowling_alley.py`)
+- **Branch Coverage: 100%** (42 test cases — `BranchCoverageTest_PES1UG24CS914_bowling_alley.py`, 26/26 branches covered)
+- Both test files, coverage reports, and terminal outputs pushed in 2 separate commits
