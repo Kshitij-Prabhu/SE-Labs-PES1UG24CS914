@@ -1,0 +1,51 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.16, pytest-9.2.0, pluggy-1.7.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /tmp/claude-0/-home-claude/12d26822-9176-519f-b2eb-c8058d91b16d/scratchpad/lab6_work
+plugins: anyio-4.15.1
+collecting ... collected 42 items
+
+BranchCoverageTest_PES1UG24CS914_bowling_alley.py::test_lc_b1_unknown_day_type PASSED [  2%]
+BranchCoverageTest_PES1UG24CS914_bowling_alley.py::test_lc_b1_known_day_type_weekday PASSED [  4%]
+BranchCoverageTest_PES1UG24CS914_bowling_alley.py::test_lc_b1_known_day_type_weekend PASSED [  7%]
+BranchCoverageTest_PES1UG24CS914_bowling_alley.py::test_lc_b2_games_zero PASSED [  9%]
+BranchCoverageTest_PES1UG24CS914_bowling_alley.py::test_lc_b2_players_zero PASSED [ 11%]
+BranchCoverageTest_PES1UG24CS914_bowling_alley.py::test_lc_b2_players_seven PASSED [ 14%]
+BranchCoverageTest_PES1UG24CS914_bowling_alley.py::test_lc_b2_minimum_valid_booking PASSED [ 16%]
+BranchCoverageTest_PES1UG24CS914_bowling_alley.py::test_lc_b3_too_many_shoes PASSED [ 19%]
+BranchCoverageTest_PES1UG24CS914_bowling_alley.py::test_lc_b3_shoes_equal_players PASSED [ 21%]
+BranchCoverageTest_PES1UG24CS914_bowling_alley.py::test_lc_b4_players_five_surcharge PASSED [ 23%]
+BranchCoverageTest_PES1UG24CS914_bowling_alley.py::test_lc_b4_players_six_surcharge PASSED [ 26%]
+BranchCoverageTest_PES1UG24CS914_bowling_alley.py::test_lc_b4_players_four_no_surcharge PASSED [ 28%]
+BranchCoverageTest_PES1UG24CS914_bowling_alley.py::test_lc_b4_players_one_no_surcharge PASSED [ 30%]
+BranchCoverageTest_PES1UG24CS914_bowling_alley.py::test_lc_b5_league_member_discount PASSED [ 33%]
+BranchCoverageTest_PES1UG24CS914_bowling_alley.py::test_lc_b5_non_member_no_discount PASSED [ 35%]
+BranchCoverageTest_PES1UG24CS914_bowling_alley.py::test_fs_b6a_negative_first_roll PASSED [ 38%]
+BranchCoverageTest_PES1UG24CS914_bowling_alley.py::test_fs_b6b_first_roll_over_ten PASSED [ 40%]
+BranchCoverageTest_PES1UG24CS914_bowling_alley.py::test_fs_b6c_negative_second_roll PASSED [ 42%]
+BranchCoverageTest_PES1UG24CS914_bowling_alley.py::test_fs_b6d_valid_rolls_proceed PASSED [ 45%]
+BranchCoverageTest_PES1UG24CS914_bowling_alley.py::test_fs_b7_strike_true PASSED [ 47%]
+BranchCoverageTest_PES1UG24CS914_bowling_alley.py::test_fs_b7_strike_zero_bonus PASSED [ 50%]
+BranchCoverageTest_PES1UG24CS914_bowling_alley.py::test_fs_b7_not_a_strike PASSED [ 52%]
+BranchCoverageTest_PES1UG24CS914_bowling_alley.py::test_fs_b8_invalid_frame_total PASSED [ 54%]
+BranchCoverageTest_PES1UG24CS914_bowling_alley.py::test_fs_b8_boundary_eleven PASSED [ 57%]
+BranchCoverageTest_PES1UG24CS914_bowling_alley.py::test_fs_b8_spare_not_over_ten PASSED [ 59%]
+BranchCoverageTest_PES1UG24CS914_bowling_alley.py::test_fs_b8_open_frame_under_ten PASSED [ 61%]
+BranchCoverageTest_PES1UG24CS914_bowling_alley.py::test_fs_b9_spare_true PASSED [ 64%]
+BranchCoverageTest_PES1UG24CS914_bowling_alley.py::test_fs_b9_spare_zero_first PASSED [ 66%]
+BranchCoverageTest_PES1UG24CS914_bowling_alley.py::test_fs_b9_open_frame_false PASSED [ 69%]
+BranchCoverageTest_PES1UG24CS914_bowling_alley.py::test_fs_b9_gutter_ball PASSED [ 71%]
+BranchCoverageTest_PES1UG24CS914_bowling_alley.py::test_la_b10_no_lanes_free PASSED [ 73%]
+BranchCoverageTest_PES1UG24CS914_bowling_alley.py::test_la_b10_large_group_no_lanes PASSED [ 76%]
+BranchCoverageTest_PES1UG24CS914_bowling_alley.py::test_la_b10_lanes_available PASSED [ 78%]
+BranchCoverageTest_PES1UG24CS914_bowling_alley.py::test_la_b11_has_kids PASSED [ 80%]
+BranchCoverageTest_PES1UG24CS914_bowling_alley.py::test_la_b11_has_kids_large_group PASSED [ 83%]
+BranchCoverageTest_PES1UG24CS914_bowling_alley.py::test_la_b11_no_kids PASSED [ 85%]
+BranchCoverageTest_PES1UG24CS914_bowling_alley.py::test_la_b12_large_group_two_lanes_available PASSED [ 88%]
+BranchCoverageTest_PES1UG24CS914_bowling_alley.py::test_la_b12_very_large_group_many_lanes PASSED [ 90%]
+BranchCoverageTest_PES1UG24CS914_bowling_alley.py::test_la_b12a_large_group_one_lane PASSED [ 92%]
+BranchCoverageTest_PES1UG24CS914_bowling_alley.py::test_la_b12a_nine_players_one_lane PASSED [ 95%]
+BranchCoverageTest_PES1UG24CS914_bowling_alley.py::test_la_b13_six_players_standard PASSED [ 97%]
+BranchCoverageTest_PES1UG24CS914_bowling_alley.py::test_la_b13_one_player_standard PASSED [100%]
+
+============================== 42 passed in 0.17s ==============================
