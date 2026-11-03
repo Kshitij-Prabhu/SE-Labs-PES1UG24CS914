@@ -1,0 +1,33 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.16, pytest-9.2.0, pluggy-1.7.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /tmp/claude-0/-home-claude/12d26822-9176-519f-b2eb-c8058d91b16d/scratchpad/lab6_work
+plugins: anyio-4.15.1
+collecting ... collected 24 items
+
+CodeCoverageTest_PES1UG24CS914_bowling_alley.py::test_weekday_basic PASSED [  4%]
+CodeCoverageTest_PES1UG24CS914_bowling_alley.py::test_weekend_basic PASSED [  8%]
+CodeCoverageTest_PES1UG24CS914_bowling_alley.py::test_unknown_day_type_raises PASSED [ 12%]
+CodeCoverageTest_PES1UG24CS914_bowling_alley.py::test_zero_games_raises PASSED [ 16%]
+CodeCoverageTest_PES1UG24CS914_bowling_alley.py::test_zero_players_raises PASSED [ 20%]
+CodeCoverageTest_PES1UG24CS914_bowling_alley.py::test_too_many_players_raises PASSED [ 25%]
+CodeCoverageTest_PES1UG24CS914_bowling_alley.py::test_shoe_rentals_exceed_players_raises PASSED [ 29%]
+CodeCoverageTest_PES1UG24CS914_bowling_alley.py::test_players_over_four_surcharge PASSED [ 33%]
+CodeCoverageTest_PES1UG24CS914_bowling_alley.py::test_shoe_rental_cost PASSED [ 37%]
+CodeCoverageTest_PES1UG24CS914_bowling_alley.py::test_league_member_discount PASSED [ 41%]
+CodeCoverageTest_PES1UG24CS914_bowling_alley.py::test_league_member_with_surcharge_and_shoes PASSED [ 45%]
+CodeCoverageTest_PES1UG24CS914_bowling_alley.py::test_open_frame PASSED  [ 50%]
+CodeCoverageTest_PES1UG24CS914_bowling_alley.py::test_strike PASSED      [ 54%]
+CodeCoverageTest_PES1UG24CS914_bowling_alley.py::test_spare PASSED       [ 58%]
+CodeCoverageTest_PES1UG24CS914_bowling_alley.py::test_negative_first_roll_raises PASSED [ 62%]
+CodeCoverageTest_PES1UG24CS914_bowling_alley.py::test_first_roll_over_ten_raises PASSED [ 66%]
+CodeCoverageTest_PES1UG24CS914_bowling_alley.py::test_negative_second_roll_raises PASSED [ 70%]
+CodeCoverageTest_PES1UG24CS914_bowling_alley.py::test_frame_total_over_ten_raises PASSED [ 75%]
+CodeCoverageTest_PES1UG24CS914_bowling_alley.py::test_zero_zero_frame PASSED [ 79%]
+CodeCoverageTest_PES1UG24CS914_bowling_alley.py::test_no_lanes_free PASSED [ 83%]
+CodeCoverageTest_PES1UG24CS914_bowling_alley.py::test_has_kids_gets_bumper_lane PASSED [ 87%]
+CodeCoverageTest_PES1UG24CS914_bowling_alley.py::test_standard_lane PASSED [ 91%]
+CodeCoverageTest_PES1UG24CS914_bowling_alley.py::test_large_group_two_lanes PASSED [ 95%]
+CodeCoverageTest_PES1UG24CS914_bowling_alley.py::test_large_group_only_one_lane_waits PASSED [100%]
+
+============================== 24 passed in 0.09s ==============================
