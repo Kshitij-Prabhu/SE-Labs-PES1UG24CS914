@@ -33,3 +33,11 @@
 - **Line (Code) Coverage: 100%** (24 test cases — `CodeCoverageTest_PES1UG24CS914_bowling_alley.py`)
 - **Branch Coverage: 100%** (42 test cases — `BranchCoverageTest_PES1UG24CS914_bowling_alley.py`, 26/26 branches covered)
 - Both test files, coverage reports, and terminal outputs pushed in 2 separate commits
+
+## Lab 7 — Fuzz Testing for Input Validation Bugs
+- Assigned repo: https://github.com/SETAPESU26/L6_L7_64_bowling_alley
+- Module tested: `bowling_alley_parser.py` (format_player_name, parse_frame, parse_scoreboard)
+- Tool: Python `hypothesis` (property-based fuzz testing) + `pytest`
+- **Bugs found**: 8 input validation bugs (AttributeError on None, IndexError on empty string, unguarded ValueError on malformed input)
+- **Fix**: Added TypeError/ValueError guards at entry of all three functions
+- **Result**: 3/3 Hypothesis fuzz tests pass after fix
